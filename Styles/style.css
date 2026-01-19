@@ -36,6 +36,19 @@
     max-width: 1600px;
 }
 
+#youtube-time{
+    color:#00FF88;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 24px;
+}
+
+.youtube-video{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
 
 /* Main style */
 
@@ -119,3 +132,28 @@ nav li a {
     line-height: 24px;
     margin-bottom: 40px;
 }
+
+.youtube-video-card{
+    background-color: #250D44;
+    border-radius: 20px;
+    width: 380px;
+}
+
+.youtube-video-card h3{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 700px;
+}
+
+.youtube-video-card p{
+    margin: 12px 0px;
+    color: #ffffff91;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+}
+.youtube-video-card img{
+    width: 20px;
+    height: 20px;
+}
+
