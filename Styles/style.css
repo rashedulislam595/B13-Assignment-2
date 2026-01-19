@@ -184,3 +184,20 @@ nav li a {
     justify-content: center;
     margin-right: 8px;
 }
+
+footer{
+    background-image: url(../assets/footer-bg.png);
+}
+
+footer p small{
+    color: #ffffff91;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+}
+
+.footer-img{
+    width: 24px;
+    height: 24px;
+    
+}
