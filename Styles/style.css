@@ -18,6 +18,20 @@
     font-weight: 600px;
 }
 
+.review-number{
+    color: #00FF88;
+    font-size: 48px;
+    font-weight: 900px;
+    margin-bottom: 16px;
+}
+
+.review-paragraph{
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-weight: 400px;
+}
+
 
 /* Main style */
 
@@ -65,4 +79,10 @@ nav li a {
     position: absolute;
     top: 210px;
     left: 888px;
+}
+
+.ph-line-height{
+    line-height: 20px;
+    font-size: 16px;
+
 }
