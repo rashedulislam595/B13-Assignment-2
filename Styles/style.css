@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+/* sheyaring style */
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn{
+    background: linear-gradient( 66deg ,#F7E93F, #FA5B89, #FB09B4, #9100F8);
+    padding: 12px 20px;
+    border-radius: 10000px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600px;
+}
+
+
+/* Main style */
+
+nav{
+    max-width: 1600px;
+    background: linear-gradient(#1A0B2E, #412567);
+}
+
+nav li a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 120%;
+}
+
+.hero-section{
+    max-width: 1600px;
+    height: 760px;
+    background-image:url(../assets/hero-bg.png) ;
+}
+
+.hero-circle{
+    position: relative;
+    top: 110px;
+    left: 625px;
+}
+
+.microphone{
+    position: absolute;
+    top: 270px;
+    left: 750px;
+    z-index: 10;
+}
+
+.new-logo{
+    width: 75px;
+    height: 35px;
+    background-color: #00FF88;
+    border-radius: 1000px;
+    box-shadow: 0px 3px 27px #00FF88;
+    font-size: 18px;
+    font-weight: 600px;
+    color: #1A0B2E;
+    padding-top: 4px ;
+    position: absolute;
+    top: 210px;
+    left: 888px;
+}
