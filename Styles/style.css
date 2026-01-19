@@ -28,8 +28,12 @@
 .review-paragraph{
     font-size: 16px;
     line-height: 20px;
-    color: #FFFFFF;
+    color: #ffffff91;
     font-weight: 400px;
+}
+
+.container{
+    max-width: 1600px;
 }
 
 
@@ -85,4 +89,33 @@ nav li a {
     line-height: 20px;
     font-size: 16px;
 
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px),100px;
+    gap: 30px;
+}
+
+.card{
+    padding: 40px;
+    background-color: #351165;
+    border-radius: 40px;
+    
+}
+
+.card-container .card h3{
+    color: #FFFFFF;
+    margin: 16px 0px;
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+.card-container .card p{
+    color: #ffffff91;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    margin-bottom: 40px;
 }
