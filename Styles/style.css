@@ -16,6 +16,26 @@
     font-size: 16px;
     color: #FFFFFF;
     font-weight: 600px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background:none;
+    border:1px solid #00FF88;
+    padding: 12px 19px;
+    color: #00FF88;
+}
+
+.btn2:hover{
+    background: linear-gradient(66deg, #F7E93F, #FA5B89, #FB09B4, #9100F8);
+    color: #FFFFFF;
+    border: none;
+    padding: 13px 29px;
+}
+
+.rotate-animation{
+    animation: 2s rotate infinite linear alternate 2s;
 }
 
 .review-number {
@@ -48,6 +68,17 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
+}
+
+/* animation  */
+
+@keyframes rotate {
+    from{
+        transform: rotate(5deg);
+    }
+    to{
+        transform: rotate(-5deg);
+    }
 }
 
 /* Main style */
