@@ -20,10 +20,10 @@
     cursor: pointer;
 }
 
-.btn1:hover{
+.btn:hover{
     background:none;
     border:1px solid #00FF88;
-    padding: 12px 19px;
+    padding: 10.7px 19px;
     color: #00FF88;
 }
 
@@ -78,9 +78,9 @@
     }
     to{
         transform: rotate(-5deg);
+        color: #00FF88;
     }
 }
-
 /* Main style */
 
 nav {
