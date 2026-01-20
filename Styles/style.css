@@ -410,3 +410,50 @@ footer p small {
         margin: 24px auto;
     }
 }
+
+@media (min-width:992px) and (max-width:1200px) {
+     header nav {
+        padding: 20px 40px;
+        
+    }
+
+    .hero-section {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .hero-circle {
+        top: 80px;
+        left: 320px;
+    }
+
+    .microphone {
+        top: 250px;
+        left: 430px;
+    }
+
+    .new-logo {
+        top: 190px;
+        left: 590px;
+    }
+
+    .choose-section, .episode-host-section ,.about-section {
+        padding: 60px 40px;
+    }
+
+    footer{
+        padding: 120px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .footer-media-icon{
+        gap: 16px;
+        justify-content: center;
+        margin: 24px auto;
+    }
+
+    
+}
