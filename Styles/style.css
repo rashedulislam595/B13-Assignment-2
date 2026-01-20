@@ -126,7 +126,7 @@ nav .hamburger-menu {
     color: #FFFFFF;
     margin: 16px 0px;
     font-size: 24px;
-    font-weight: 700px;
+    font-weight: bold;
 }
 
 .card-container .card p {
@@ -134,7 +134,6 @@ nav .hamburger-menu {
     font-size: 16px;
     font-weight: 400px;
     line-height: 24px;
-    margin-bottom: 40px;
 }
 
 .youtube-video-card {
@@ -266,26 +265,51 @@ footer p small {
         margin-top: 0px;
     }
 
-    .about-section{
+    .about-section {
         padding: 40px 20px;
     }
 
-    .about-section .about-content h2{
+    .about-section .about-content h2 {
         font-size: 32px;
         font-weight: bold;
         margin-bottom: 16px;
     }
 
-    .about-section .about-content p{
-        
-    }
-
-    .review-container{
+    .review-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
         text-align: center;
     }
 
+    .choose-section {
+        padding: 40px 20px;
+    }
+
+    .choose-section h2 {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+
+    .choose-section .card-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .card {
+        padding: 24px;
+        background-color: #351165;
+        border-radius: 24px;
+        width: 400px;
+    }
+
+    .card-container .card h3 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    
 
 }
