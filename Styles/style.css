@@ -145,7 +145,7 @@ nav .hamburger-menu {
 .youtube-video-card h3 {
     font-size: 24px;
     color: #FFFFFF;
-    font-weight: 700px;
+    font-weight: bold;
 }
 
 .youtube-video-card p {
@@ -303,6 +303,7 @@ footer p small {
         background-color: #351165;
         border-radius: 24px;
         width: 400px;
+        /* margin: 0px auto; */
     }
 
     .card-container .card h3 {
@@ -310,6 +311,71 @@ footer p small {
         font-weight: bold;
     }
 
-    
+    .episode-host-section {
+        padding: 40px 20px;
+    }
 
+    .episode-host-section h2 {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 24px;
+    }
+
+    .episode-host-section .episode {
+        margin-bottom: 60px;
+    }
+
+    .episode-container {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .youtube-video-card {
+        border-radius: 20px;
+        width: 400px;
+        margin: 0px auto;
+    }
+
+    .youtube-video-card h3 {
+        font-size: 20px;
+    }
+
+    .youtube-video-card p {
+        margin: 8px 0px;
+    }
+
+    .episode-card-contain {
+        padding: 16px;
+    }
+
+    .host-container {
+        padding: 24px;
+        border-radius: 24px;
+        flex-direction: column;
+        text-align: center;
+        gap: 16px;
+    }
+
+    .host-container h3{
+        font-size: 24px;
+    }
+
+    .host-icon-container{
+        justify-content: center;
+    }
+
+    footer{
+        padding: 40px 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .footer-media-icon{
+        max-width: 270px;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+        margin: 24px auto;
+    }
 }
